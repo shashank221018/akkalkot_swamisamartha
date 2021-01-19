@@ -1,0 +1,338 @@
+body{
+    margin: 0px;
+    background: rgb(255,128,64);
+background: linear-gradient(90deg, rgba(255,128,64,1) 2%, rgba(246,108,108,1) 53%, rgba(255,137,46,0.9948354341736695) 89%);}
+
+header{
+    width: 100%;
+    height: 100px;
+    background: rgb(150,60,0);
+background: radial-gradient(circle, rgba(150,60,0,1) 2%, rgba(136,11,0,1) 51%, rgba(143,46,46,1) 89%);
+}
+.logomain{
+    position: absolute;
+    margin-left:450px;
+    width: 500px;
+    height: 100px;
+    
+
+}
+.logoleft{
+    position: absolute;
+    margin-left: 80px;
+    width: 70px;
+    height: 95px;
+    
+}
+
+/*
+navbar
+*/
+.navbar {
+
+} 
+.navcolor{
+  background: rgb(255,128,64);
+background: linear-gradient(90deg, rgba(255,128,64,1) 2%, rgba(246,108,108,1) 53%, rgba(255,137,46,0.9948354341736695) 89%);
+}
+.navbutton{
+  
+  width: 200px;
+  height:50px;
+  text-align: center;
+  font-size: 20px;
+  color: #f1f1f1;
+  margin-top: -7px;
+  margin-bottom: -7px;
+  
+}
+.navbutton:hover{background: #fff;color: red; 
+}
+.navbar a{
+  color: #000;
+}
+
+.dropbtn {
+  background-color: rgb(252, 237, 218));
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+  font-size: 20px;
+  color: #f1f1f1; 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+ 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid gainsboro;
+  
+  
+}
+
+.dropdown-content a:hover {background-color: #fff;color: red; text-decoration: none;  }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+ 
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #fff;
+  
+}
+
+
+.carousel-inner h3{
+  background:rgba(0,0,0,0.7);
+  width: 50%;
+  height:60px; 
+  margin-left: 25%;
+  text-align: center;
+padding-top: 10px;
+border-radius: 15px;
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+    
+  }
+.banner{
+   margin-top: -25px;   
+}
+
+.news h3{
+  color: #f9f9f9;
+text-align: center;
+}
+  .news li{
+      text-decoration: none;
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #ffb340;
+    color: white;
+
+  }
+  
+  .flip-card-back {
+    background-color: #b13535;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-card-back h1{
+    margin-top: 110px;
+   
+  }
+
+  .fa-credit{
+      padding-top: 100px;
+  }
+
+  .midimg img{
+   Margin-left: 25%;
+    
+  }
+
+  .mainpart{
+    
+    margin-top: -48px;
+  }
+.highlights{
+  color: #f9f9f9;
+}
+  .highlights iframe{
+    border: 0px solid red;
+    
+    
+  }
+  
+  .backg{
+    color: #f9f9f9;
+   }
+
+   footer{
+    background: #305385;
+    line-height: 2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 15px;
+    height: 250px;
+    padding-top: 20px;
+    
+  }
+  footer p{
+    line-height: 1.5;
+  }
+  
+  .two{background:  #666666;}
+  
+  footer a {text-decoration:none;
+  color:#fff; }
+  
+  footer p{color: #fff;}
+  
+  footer:hover a{text-decoration: none; color: white;}
+  
+  
+  footer .fa {
+    padding: 5px;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  footer .fa:hover {
+      opacity: 0.7;
+  }
+  
+  footer .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  footer .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  footer .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  footer h2{
+    color: #fff;
+    size:14px;
+  }
+  footer h4
+  {
+    color: #fff;
+  }
+  footer h5{
+    color: #fff;
+  }
+  .coppy
+  {
+    height: 60px;
+    background: #666666;
+  
+  }
+  .coppy h6{
+    padding-top: 20px;
+    color: #fff;
+  }
+
+.aboutus{
+  color: #fff; 
+}
+
+  .aboutus img{
+width: 500px;
+border-radius: 10px;
+ 
+  }
+  
+  .education{
+    color: #fff; 
+  }
+  
+    .education img{
+  width: 500px;
+  border-radius: 10px;
+   
+    }
+.bhaktaniwas{
+  color: #fff; 
+}
+
+  .bhaktaniwas img{
+width: 500px;
+border-radius: 10px;
+ 
+  }
+  .hospital{
+    color: #fff; 
+  }
+  .hospital p{
+    text-align: left;
+  }
+  .hospital img{
+    width: 500px;
+border-radius: 10px;
+  }
+  .submitbtn{
+    border: 1px solid black;
+    width: 130px;
+    border-radius: 5px;
+    
+  }
+  .paynow{
+    border: 2px solid black;
+    width: 130px;
+    border-radius: 5px;
+  }
+  .addr h2{
+    font-size: 20px;
+
+  }
+  .addr h4{
+    font-size: 18px;
+
+  }
+  .addr h5{
+    font-size: 15px;
+
+  }
